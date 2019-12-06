@@ -7,3 +7,7 @@ func Repeat(character string, count int) string {
 	}
 	return repeated
 }
+
+func Repeat2(character string, count int) string {
+	return ""
+}
