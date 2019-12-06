@@ -26,4 +26,12 @@ func ExampleRepeat() {
 	// Output: aaaaaa
 }
 
+func TestRepeat2(t *testing.T) {
+	repeated := Repeat2("a", 6)
+	expected := "aaaaaa"
+
+	if repeated != expected {
+		t.Errorf("expected %q but got %q", expected, repeated)
+	}
+}
 
